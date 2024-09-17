@@ -35,9 +35,10 @@ let package = Package(
     defaultLocalization: "en", // for tests
     platforms: [
         .iOS(.v18),
-        .macOS(.v10_13),
+        .macOS(.v15),
         .tvOS(.v11),
         .watchOS(.v4),
+        .visionOS(.v2)
     ],
     products: [
         .library(name: "CSQLite", targets: ["CSQLite"]),
